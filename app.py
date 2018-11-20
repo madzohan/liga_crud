@@ -25,10 +25,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + app.config['DATABASE_FILE
 app.config['SQLALCHEMY_ECHO'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-app.config['SECURITY_PASSWORD_SALT'] = 'theissaltysalt'
-app.config['SECURITY_TRACKABLE'] = 'salty'
+app.config['SECURITY_PASSWORD_SALT'] = 'saltysalt'
+app.config['SECURITY_TRACKABLE'] = True
 
-# db = SQLAlchemy(app, session_options={'autocommit': True})
 db = SQLAlchemy(app)
 
 
