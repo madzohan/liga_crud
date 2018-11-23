@@ -1,3 +1,7 @@
 .idea*
 *.pyc
+__pycache__/
 *.sqlite
+dist/
+build/
+*.egg-info/
