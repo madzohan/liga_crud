@@ -8,3 +8,8 @@
 ```
 > FLASK_ENV=development pipenv run flask run
 ```
+### Development
+- Creating data migration from scratch:
+```
+pipenv run alembic -c ./migrations/alembic.ini revision -m 'demo data'
+```
