@@ -3,6 +3,7 @@
 ## Installation
 - `pip3 install pipenv`
 - `pipenv install`
+- `pipenv run flask db upgrade`
 ## Running
 ```
 > FLASK_ENV=development flask run
