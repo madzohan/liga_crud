@@ -6,5 +6,5 @@
 - `pipenv run flask db upgrade`
 ## Running
 ```
-> FLASK_ENV=development flask run
+> FLASK_ENV=development pipenv run flask run
 ```
